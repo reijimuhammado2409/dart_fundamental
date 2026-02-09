@@ -1,5 +1,5 @@
 void main(){
-    String name = "Rezy"; //
+    String name = "Rezy"; // Benar
     int umur = 24;
     double tinggiBadan = 1.78;
     bool statusaktif = true;
@@ -18,16 +18,14 @@ void main(){
     ///fungsi ini untuk menampilkan biodata biodata 
     void biodata(){
       print("====================================");
-      print("nama : " + name);
-      print(umur);
-      print(tinggiBadan);
-      print("Apakah saya anak ppkd? ${statusaktif ? "Benar" : "Salah"}");
-      print(buku [0]);
-      print(buku [1]);
+      print("nama : $name");
+      print("usia : $umur");
+      print("tinggiBadan : $tinggiBadan");
+      print("Apakah saya anak ppkd? ${statusaktif ? "rezy" : "faisal"}");
+      print("buku favorit : ${buku[0]}");
       print("kelamin : ${data["kelamin"]}");
       print("alamat : ${data["alamat"]}");
       print("profesi : ${data["profesi"]}");
-      print("usia : ${data["usia"]}");
       print("====================================");
     }
     
